@@ -1,33 +1,33 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
-  <meta charset="UTF-8">
-  <title>Feliz Aniversário!</title>
-  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <meta charset="UTF-8">
+    <title>Feliz Aniversário!</title>
+    <link rel="stylesheet" href="static/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-  <nav class="navbar">
-    <ul>
-      <li><a href="/">Home</a></li>
-      <li><a href="/moments">Moments</a></li>
-    </ul>
-  </nav>
+    <nav class="navbar">
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/moments.html">Moments</a></li>
+        </ul>
+    </nav>
 
-  <main>
-    <h1>Feliz Aniversário!</h1>
-    <p>Parabéns naty!!! Obrigado por tudo que já fez por mim, continue sendo essa pessoa maravilhosa que você é, espero que tenha aproveitado bem o seu dia com um sorriso estampado na cara, afinal tem que esbanjar esse sorriso perfeito mesmo. Parabéns pelo seu dia garota, saiba que você é muito importante para mim mesmo depois de tudo que ja passamos, cada lembrança que eu carrego comigo será eterna, deixarei cada momento gravado no meu coração e na minha alma. Te amo esquisita!</p>
+    <main>
+        <h1>Feliz Aniversário!</h1>
+        <p>Parabéns naty!!! Obrigado por tudo que já fez por mim, continue sendo essa pessoa maravilhosa que você é...</p>
 
-    <div class="gallery">
-      <img src="{{ url_for('static', filename='images/foto11.jpg') }}" alt="Foto 1">
-      <img src="{{ url_for('static', filename='images/foto12.jpg') }}" alt="Foto 2">
-      <img src="{{ url_for('static', filename='images/foto13.jpg') }}" alt="Foto 3">   
-    </div>
+        <div class="gallery">
+            <img src="static/images/foto11.jpg" alt="Foto 1">
+            <img src="static/images/foto12.jpg" alt="Foto 2">
+            <img src="static/images/foto13.jpg" alt="Foto 3">
+        </div>
 
-    <h2>Obrigado por Existir!</h2>
-    <p>Espero que você conquiste tudo que almeja na sua vida, que conclua todos os seus propositos e objetivos. Você é incrivel, sei que consegue!</p>
-  </main>
+        <h2>Obrigado por Existir!</h2>
+        <p>Espero que você conquiste tudo que almeja na sua vida, que conclua todos os seus propósitos e objetivos. Você é incrível, sei que consegue!</p>
+    </main>
 
-  <script src="{{ url_for('static', filename='script.js') }}"></script>
+    <script src="static/script.js"></script>
 </body>
 </html>
