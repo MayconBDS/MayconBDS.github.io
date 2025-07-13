@@ -1,39 +1,40 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Momentos Especiais</title>
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Momentos Especiais</title>
+    <link rel="stylesheet" href="static/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-  <nav class="navbar">
-    <ul>
-      <li><a href="/">Home</a></li>
-      <li><a href="/moments">Moments</a></li>
-    </ul>
-  </nav>
+    <nav class="navbar">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="moments.html">Moments</a></li>
+        </ul>
+    </nav>
 
-  <div class="container">
-    <h1>Aprecie sua Beleza</h1>
-    <p>Top fotos suas (oh mulher bonita do carai viu)</p>
+    <div class="container">
+        <h1>Aprecie sua Beleza</h1>
+        <p>Top fotos suas (oh mulher bonita do carai viu)</p>
 
-    <!-- Galeria de imagens -->
-<div class="gallery">
-  <img src="{{ url_for('static', filename='images/foto1.jpg') }}" alt="Foto especial 1">
-  <img src="{{ url_for('static', filename='images/foto2.jpg') }}" alt="Foto especial 2">
-  <img src="{{ url_for('static', filename='images/foto3.jpg') }}" alt="Foto especial 3">
-  <img src="{{ url_for('static', filename='images/foto9.jpg') }}" alt="Foto especial 4">
-  <img src="{{ url_for('static', filename='images/foto5.jpg') }}" alt="Foto especial 5">
-  <img src="{{ url_for('static', filename='images/foto6.jpg') }}" alt="Foto especial 6">
-  <img src="{{ url_for('static', filename='images/foto7.jpg') }}" alt="Foto especial 7">
-  <img src="{{ url_for('static', filename='images/foto8.jpg') }}" alt="Foto especial 8">
-</div>
+        <div class="gallery">
+            <img src="static/images/foto1.jpg" alt="Foto especial 1">
+            <img src="static/images/foto2.jpg" alt="Foto especial 2">
+            <img src="static/images/foto3.jpg" alt="Foto especial 3">
+            <img src="static/images/foto4.jpg" alt="Foto especial 4">
+            <img src="static/images/foto5.jpg" alt="Foto especial 5">
+            <img src="static/images/foto6.jpg" alt="Foto especial 6">
+            <img src="static/images/foto7.jpg" alt="Foto especial 7">
+            <img src="static/images/foto8.jpg" alt="Foto especial 8">
+        </div>
 
-    <div class="extra-message">
-      <h2>Cada lembrança é eterna</h2>
+        <div class="extra-message">
+            <h2>Cada lembrança é eterna</h2>
+        </div>
     </div>
-  </div>
+
+    <script src="static/script.js"></script>
 </body>
 </html>
